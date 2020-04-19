@@ -5,11 +5,13 @@ VisualStudioVersion = 16.0.30001.183
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "HelloWebhooks", "HelloWebhooks", "{CF09C2FA-E05A-4AF7-A33D-BFC379CB058B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloWebHook", "HelloWebhooks\HelloWebHook\HelloWebHook.csproj", "{3C210B5E-B4D6-4A4F-97A6-A3489142857A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HelloWebHook", "HelloWebhooks\HelloWebHook\HelloWebHook.csproj", "{3C210B5E-B4D6-4A4F-97A6-A3489142857A}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "HelloHealthChecks", "HelloHealthChecks", "{D5A423BB-F808-45E4-A9BF-A2CFB8E23870}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "HelloAutofac", "HelloAutofac", "{FF95586C-A415-4E19-B400-CD043647F990}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HelloMacan", "HelloMacan\HelloMacan.csproj", "{1DC6F61E-4D7A-43CF-8F47-1D9A49ADE0FE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{3C210B5E-B4D6-4A4F-97A6-A3489142857A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3C210B5E-B4D6-4A4F-97A6-A3489142857A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3C210B5E-B4D6-4A4F-97A6-A3489142857A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1DC6F61E-4D7A-43CF-8F47-1D9A49ADE0FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1DC6F61E-4D7A-43CF-8F47-1D9A49ADE0FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1DC6F61E-4D7A-43CF-8F47-1D9A49ADE0FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1DC6F61E-4D7A-43CF-8F47-1D9A49ADE0FE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
