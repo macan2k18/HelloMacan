@@ -1,8 +1,5 @@
 ﻿WebHooks : 
 WebHooks also called Reverse API / WebCallback / HTTP Pusg API.
-
-Updated! 123456
-Updated!
-
+HTTP 400!
 add data on github server!
 webhook
