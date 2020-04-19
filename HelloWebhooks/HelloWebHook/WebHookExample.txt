@@ -3,4 +3,6 @@ WebHooks also called Reverse API / WebCallback / HTTP Pusg API.
 how to test webhooks.
 set correct payload.
 HTTP 400!
-Http 502 bad gateway : http://db96afae.ngrok.io
+Http 502 bad gateway : 
+
+>ngrok http 5000
