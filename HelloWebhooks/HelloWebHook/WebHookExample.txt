@@ -8,6 +8,10 @@ key : 8ec89166b7bc62fa1b0e910803f1dd73293d9d69
 http://ed454b5e.ngrok.io/api/GitHub/incoming/github
 incoming/methodname?
 
+
+http://ed454b5e.ngrok.io/api/ControllerName/incoming/MethodName
+
+
 below should correct command:
 >ngrok http 5000
 
