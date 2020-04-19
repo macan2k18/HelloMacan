@@ -1,9 +1,11 @@
 ﻿WebHooks : 
-WebHooks also called Reverse API / WebCallback / HTTP Pusg API.
-how to test webhooks.
-set correct payload.
-HTTP 400!
-Http 502 bad gateway : 
+===== test IIS express ====
+My local url running : https://localhost:44369/
+>ngrok http 44369
+
+key : 8ec89166b7bc62fa1b0e910803f1dd73293d9d69
+
+http://ed454b5e.ngrok.io/api/GitHub/incoming/github
 
 below should correct command:
 >ngrok http 5000
