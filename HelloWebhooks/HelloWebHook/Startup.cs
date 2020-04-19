@@ -19,7 +19,8 @@ namespace HelloWebHook
         {
             services.AddMvc()
                   .AddGitHubWebHooks()
-                  .SetCompatibilityVersion(CompatibilityVersion.Version_3_0)
+                  //.AddMailChimpWebHooks()
+                  //.SetCompatibilityVersion(CompatibilityVersion.Version_3_0)
             ;
 
         }
@@ -33,14 +34,18 @@ namespace HelloWebHook
             }
 
             app.UseRouting();
-
             app.UseEndpoints(endpoints =>
             {
-                endpoints.MapGet("/", async context =>
-                {
-                    await context.Response.WriteAsync("Hello World!");
-                });
+                endpoints.MapControllers();
             });
+            //app.UseEndpoints(endpoints =>
+            //{
+            //    //endpoints.MapGet("/", async context =>
+            //    //{
+            //    //    await context.Response.WriteAsync("Hello World!");
+            //    //});
+            //    endpoints.MapControllers();
+            //});
             //app.UseMvc()
             //.UseMvcWithDefaultRoute();
         }
