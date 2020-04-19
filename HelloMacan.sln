@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30001.183
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "HelloWebhooks", "HelloWebhooks", "{CF09C2FA-E05A-4AF7-A33D-BFC379CB058B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloWebHook", "HelloWebhooks\HelloWebHook\HelloWebHook.csproj", "{3C210B5E-B4D6-4A4F-97A6-A3489142857A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "HelloHealthChecks", "HelloHealthChecks", "{D5A423BB-F808-45E4-A9BF-A2CFB8E23870}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "HelloAutofac", "HelloAutofac", "{FF95586C-A415-4E19-B400-CD043647F990}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3C210B5E-B4D6-4A4F-97A6-A3489142857A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C210B5E-B4D6-4A4F-97A6-A3489142857A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C210B5E-B4D6-4A4F-97A6-A3489142857A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C210B5E-B4D6-4A4F-97A6-A3489142857A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3C210B5E-B4D6-4A4F-97A6-A3489142857A} = {CF09C2FA-E05A-4AF7-A33D-BFC379CB058B}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {48D87188-7F17-4504-905B-A791231729E3}
+	EndGlobalSection
+EndGlobal
