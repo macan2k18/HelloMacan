@@ -9,3 +9,5 @@ http://ed454b5e.ngrok.io/api/GitHub/incoming/github
 
 below should correct command:
 >ngrok http 5000
+
+404: Not Found.
