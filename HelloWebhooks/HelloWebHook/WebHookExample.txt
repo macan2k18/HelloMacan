@@ -13,7 +13,3 @@ below should correct command:
 >ngrok http 5000
 
 404: Not Found.
-Inactive WebHook.
-
-Where are worng? ==> URL routing worng!
-400 Bad Request: my program issue?
