@@ -17,4 +17,4 @@ below should correct command:
 200 OK
 307 Tempporary Redirect
 404: Not Found.
-404: Not Found.
+500: Internal Server Error.
