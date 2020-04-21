@@ -1,5 +1,18 @@
-﻿WebHooks : 
-WebHooks also called Reverse API / WebCallback / HTTP Pusg API.
-HTTP 400!
-add data on github server!
-webhook
+﻿WebHooks :   
+===== Test Project Command Mode Http://5000====
+     <PackageReference Include="Microsoft.AspNetCore.WebHooks.Receivers" Version="1.0.0-preview2-final" />
+===== test IIS express failed====
+>ngrok http 44369    
+
+http://ed454b5e.ngrok.io/api/GitHub/incoming/github
+
+http://ed454b5e.ngrok.io/api/ControllerName/incoming/MethodName
+
+http://ed454b5e.ngrok.io/api/GitHub/incoming/githubmacan   ==> Wroked!
+below should correct command:
+>ngrok http 5000
+200 200 200
+200 OK
+307 Tempporary Redirect
+404: Not Found.
+500: Internal Server Error.
