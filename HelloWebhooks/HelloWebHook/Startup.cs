@@ -9,6 +9,8 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 
+using HelloWebHook.Hubs;
+
 namespace HelloWebHook
 {
     public class Startup
@@ -17,12 +19,17 @@ namespace HelloWebHook
         // For more information on how to configure your application, visit https://go.microsoft.com/fwlink/?LinkID=398940
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddMvc()
-                  .AddGitHubWebHooks()
-                  //.AddMailChimpWebHooks()
-                  //.SetCompatibilityVersion(CompatibilityVersion.Version_3_0)
-            ;
+            services.AddControllers()
+                .AddGitHubWebHooks()
+                ;
 
+            //services.AddMvc()
+            //      .AddGitHubWebHooks()
+            //      //.AddMailChimpWebHooks()
+            //      //.SetCompatibilityVersion(CompatibilityVersion.Version_3_0)
+            //;
+            //services.AddSignalR();
+            //services.AddScoped<IGithubHookService, GithubHookService>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -33,21 +40,22 @@ namespace HelloWebHook
                 app.UseDeveloperExceptionPage();
             }
 
+            app.UseHttpsRedirection();
+
             app.UseRouting();
+
+            app.UseAuthorization();
+
+            //app.UseSignalR(routes =>
+            //{
+            //    routes.MapHub<GithubSignalRHub>("/githook");
+            //});
+
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapControllers();
             });
-            //app.UseEndpoints(endpoints =>
-            //{
-            //    //endpoints.MapGet("/", async context =>
-            //    //{
-            //    //    await context.Response.WriteAsync("Hello World!");
-            //    //});
-            //    endpoints.MapControllers();
-            //});
-            //app.UseMvc()
-            //.UseMvcWithDefaultRoute();
+
         }
     }
 }
