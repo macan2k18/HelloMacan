@@ -3,11 +3,10 @@
      <PackageReference Include="Microsoft.AspNetCore.WebHooks.Receivers" Version="1.0.0-preview2-final" />
 200 sunshine. fixed name
 ===== test IIS express failed====
->ngrok http 44369    ==> 502 : Bad Gateway 
+>ngrok http 44369    
 
 http://ed454b5e.ngrok.io/api/GitHub/incoming/github
-incoming/methodname
-3f519f8f7dedd5f339078ba9fb3a34e4bac5783c
+
 http://ed454b5e.ngrok.io/api/ControllerName/incoming/MethodName
 
 http://ed454b5e.ngrok.io/api/GitHub/incoming/githubmacan   ==> Wroked!
