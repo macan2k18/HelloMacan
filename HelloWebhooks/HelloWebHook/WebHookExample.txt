@@ -13,7 +13,7 @@ http://ed454b5e.ngrok.io/api/ControllerName/incoming/MethodName
 http://ed454b5e.ngrok.io/api/GitHub/incoming/githubmacan   ==> Wroked!
 below should correct command:
 >ngrok http 5000
-200
+200 200
 200 OK
 307 Tempporary Redirect
 404: Not Found.
