@@ -1,6 +1,7 @@
 ﻿WebHooks :    
 ===== Test Project Command Mode Http://5000====
- 
+     <PackageReference Include="Microsoft.AspNetCore.WebHooks.Receivers" Version="1.0.0-preview2-final" />
+
 
 ===== test IIS express failed====
 >ngrok http 44369    ==> 502 : Bad Gateway 
