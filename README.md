@@ -1,5 +1,13 @@
-# HelloMacan
-I put basic Tech on the Repos.
+# HelloMacan with .Net Core 3.X
+I create basic tech on the Repos.
+Implemented:
+#### AutoFac
+#### WebHook
 
-AutoFac
+TODO List:
+#### Redis
+#### HealthCheck
+#### gRPC
+#### RabbitMq
+#### Azure.ServiceBus
 
