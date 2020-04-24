@@ -9,13 +9,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HelloWebHook", "HelloWebhoo
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "HelloHealthChecks", "HelloHealthChecks", "{D5A423BB-F808-45E4-A9BF-A2CFB8E23870}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "HelloAutofac", "HelloAutofac", "{FF95586C-A415-4E19-B400-CD043647F990}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "HelloAutofacs", "HelloAutofacs", "{FF95586C-A415-4E19-B400-CD043647F990}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HelloMacan", "HelloMacan\HelloMacan.csproj", "{1DC6F61E-4D7A-43CF-8F47-1D9A49ADE0FE}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DemoWebHook", "HelloWebhooks\DemoWebHook\DemoWebHook.csproj", "{38E0C868-B8BC-481C-8D3D-8413E1BA8196}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Github.Webhook", "HelloWebhooks\Github.Webhook\Github.Webhook.csproj", "{4CC85F1D-C1C1-4A63-84C2-2BB3FACA769D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloAutofac", "HelloAutofacs\HelloAutofac\HelloAutofac.csproj", "{B5E444F7-1FE8-4600-9ED8-89CF01C140A4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{4CC85F1D-C1C1-4A63-84C2-2BB3FACA769D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4CC85F1D-C1C1-4A63-84C2-2BB3FACA769D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4CC85F1D-C1C1-4A63-84C2-2BB3FACA769D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B5E444F7-1FE8-4600-9ED8-89CF01C140A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B5E444F7-1FE8-4600-9ED8-89CF01C140A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B5E444F7-1FE8-4600-9ED8-89CF01C140A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B5E444F7-1FE8-4600-9ED8-89CF01C140A4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -47,6 +53,7 @@ Global
 		{3C210B5E-B4D6-4A4F-97A6-A3489142857A} = {CF09C2FA-E05A-4AF7-A33D-BFC379CB058B}
 		{38E0C868-B8BC-481C-8D3D-8413E1BA8196} = {CF09C2FA-E05A-4AF7-A33D-BFC379CB058B}
 		{4CC85F1D-C1C1-4A63-84C2-2BB3FACA769D} = {CF09C2FA-E05A-4AF7-A33D-BFC379CB058B}
+		{B5E444F7-1FE8-4600-9ED8-89CF01C140A4} = {FF95586C-A415-4E19-B400-CD043647F990}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {48D87188-7F17-4504-905B-A791231729E3}
