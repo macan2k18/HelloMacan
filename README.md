@@ -6,7 +6,12 @@ I create basic tech on the Repos.
 
 ## TODO List:
 #### Swagger
+#### Auth
+#### JWT
+#### SingleR
 #### Redis
+#### EntityFrameworkCore.SqlServer
+#### EntityFrameworkCore.Sqlite
 #### CQRS Pattern with MediatR
 #### Auto generate Database
 #### Serilog
