@@ -21,6 +21,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HelloAutofac", "HelloAutofa
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HelloSerilog", "HelloSerilog\HelloSerilog.csproj", "{D7B22223-A48D-4A38-BE5A-1D09F1D472C0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloDockerWin10Home", "HelloDockerWin10Home\HelloDockerWin10Home.csproj", "{EA53DA6E-E65D-4F67-BF9D-361468B2A051}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{D7B22223-A48D-4A38-BE5A-1D09F1D472C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D7B22223-A48D-4A38-BE5A-1D09F1D472C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D7B22223-A48D-4A38-BE5A-1D09F1D472C0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EA53DA6E-E65D-4F67-BF9D-361468B2A051}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA53DA6E-E65D-4F67-BF9D-361468B2A051}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA53DA6E-E65D-4F67-BF9D-361468B2A051}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA53DA6E-E65D-4F67-BF9D-361468B2A051}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
