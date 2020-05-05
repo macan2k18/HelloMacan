@@ -5,10 +5,11 @@ It manages the dependencies between classes so that applications
 stay easy to change as they grow in size and complexity. 
 This is achieved by treating regular .NET classes as components.
 
-### How to use Autpfac?
+### How to use Autpfac in ASP core 3.0
     https://docs.autofac.org/en/latest/index.html
     https://autofaccn.readthedocs.io/en/latest/integration/aspnetcore.html
     https://dotnetcorecentral.com/blog/autofac-in-asp-net-core-web-application/
+    https://stackoverflow.com/questions/58133507/configureservices-returning-a-system-iserviceprovider-isnt-supported
 
 ###### Prerequisite : install autofac Dlls from NuGet 
     1. Installing NuGet package Autofac 5.1.3.
